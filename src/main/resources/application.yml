@@ -1,0 +1,11 @@
+server.port: 9090
+spring:
+    datasource:
+          driverClassName: oracle.jdbc.OracleDriver
+          password: sarbini_app
+          url: jdbc:oracle:thin:@localhost:1521/XE
+          username: sarbini_app
+    jpa:
+        hibernate: 
+                  ddl-auto: update
+        show-sql: true
